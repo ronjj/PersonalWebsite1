@@ -1,6 +1,44 @@
+/*Global */
 * {
 padding: 0px;
 margin: 0px;
 box-sizing: border-box;
+}
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar{
+  background-color: #000;
+}
+
+.navbar h1{
+  color: #fff;
+}
+
+.nav-link{
+  text-decoration: none;
+  
+ overflow: hidden;
+ display: inline;
+}
+
+.nav-links{
+  
 }
