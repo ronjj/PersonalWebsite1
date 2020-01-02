@@ -48,9 +48,22 @@ a:active {
 
 }
 
+
 .selected{
   text-decoration: underline;
 }
+
+
+
+/* blank text above second box so they are even */
+.blank{
+  color: white;
+}
+
+.child1 p{
+  font-size: 1.5em;
+} 
+
 
 
 /* Footer */
@@ -63,12 +76,41 @@ a:active {
   text-align: center;
   padding: 25px;
   font-size: 1.2em;
+  margin-top: 100px;
 }
 
-/* CSS Grid */
 
-.about-me{
-  padding: 60px 0px 40px 0px ;
+
+/* Flexbox for About Me*/
+
+.abtme{
+  height: 40vh;
 }
 
+.parent{
+  display: flex;
+  padding: 70px 50px 30px 50px;
+}
+
+/* Flexbox for Projects */
+.projects{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  height: 50vh;
+} 
+
+
+
+.title-thumbnail{
+  width: 20%;
+}
+
+.description{
+  width: 33%;
+}
+
+.tech-stack{
+  width: 33%;
+}
 
