@@ -5,64 +5,6 @@ margin: 0px;
 box-sizing: border-box;
 }
 
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-  color: #fff;
-}
-
-a:hover {
-  text-decoration: none;
-  font-weight: bold;  
-}
-
-a:active {
-  text-decoration: underline;
-}
-
-
-/* Navbar */
-.navbar{
-  background-color: #000;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-
-.navbar h1{
-  color: #fff;
-}
-
-.nav-link{
-  text-decoration: none;
-  overflow: hidden;
-  display: inline;
-}
-
-
-.nav-links{
-
-
-}
-
-
-.selected{
-  text-decoration: underline;
-}
-
-
-
-/* blank text above second box so they are even */
-.blank{
-  color: white;
-}
-
-.child1 p{
-  font-size: 1.5em;
-} 
 
 
 
@@ -80,37 +22,4 @@ a:active {
 }
 
 
-
-/* Flexbox for About Me*/
-
-.abtme{
-  height: 40vh;
-}
-
-.parent{
-  display: flex;
-  padding: 70px 50px 30px 50px;
-}
-
-/* Flexbox for Projects */
-.projects{
-  display: flex;
-  justify-content: space-around;
-  padding-top: 20px;
-  height: 50vh;
-} 
-
-
-
-.title-thumbnail{
-  width: 20%;
-}
-
-.description{
-  width: 33%;
-}
-
-.tech-stack{
-  width: 33%;
-}
 
