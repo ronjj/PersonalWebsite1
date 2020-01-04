@@ -9,35 +9,35 @@
 </head>
 <body>
   
-  <h1>Send Me A Message</h1>
+  <!--Send Me A Message Form-->
+  <h1 class="sendmessage">Send Me A Message</h1>
 
-<form>
-  <label for="name">Name</label>
-  <input type="text" id="name" name="name" placeholder= "First and Last Name" required>
-  <br>
-  <br>
-  <label for="email">Email</label>
-  <input type="email" id="email" name="email" placeholder= "Email Address" required>
-  <br>
-  <br>
+  <div class="formwrapper">
+    <form class="form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder= "First and Last Name" required>
+      <br>
+      <br>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder= "Email Address" required>
+      <br>
+      <br>
 
-  <label for="">Reason</label>
-  <select name="answers" id="answers">
-    <option value="a0">Just To Say Hi</option>
-    <option value="a1">Hiring</option>
-    <option value="a2">Sponsorship</option>
-    <option value="a3">Question</option>
-    <option value="a4">Other</option>
-  </select>
-  <br>  <br>
-  <label for="message">Message</label>
-  <textarea name="message" id="message" name="message" placeholder="..." required></textarea> <br> <br>
+      <label for="">Reason</label>
+      <select name="answers" id="answers">
+        <option value="a0">Just To Say Hi</option>
+        <option value="a1">Hiring</option>
+        <option value="a2">Sponsorship</option>
+        <option value="a3">Question</option>
+        <option value="a4">Other</option>
+      </select>
+      <br>  <br>
+      <label for="message">Message</label>
+      <textarea name="message" id="message" name="message" placeholder="..." required></textarea> <br> <br>
 
-<input type="submit" value="submit">
-
-</form>
-
-
+    <input type="submit" value="Submit">
+    </form>
+  </div>
 
   <!--Footer-->
   <footer class="footer">
