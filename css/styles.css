@@ -41,7 +41,8 @@ a:visited{
 }
 
 .headertext h4{
-  font-family: 'Spartan', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
 }
 
 
@@ -54,6 +55,8 @@ a:visited{
   padding: 15px;
   border-radius: 25px;
   margin: 40px 30px;
+  border-width: 5px;
+  border-color: #fff;
 }
 
 
@@ -63,6 +66,8 @@ a:visited{
   padding: 15px;
   border-radius: 25px;
   margin: 40px 30px;
+  border-width: 5px;
+  border-color: #fff;
 }
 
 .btn3{
@@ -71,6 +76,8 @@ a:visited{
   padding: 15px;
   border-radius: 25px;
   margin: 40px 30px;
+  border-width: 5px;
+  border-color: #fff;
 }
 
 /* Drops Opacity of Button when you hover over it*/
@@ -89,15 +96,9 @@ a:visited{
 
 /* Flexbox For Buttons*/
 .buttons{
-
-
   display: flex;
   justify-content: center;
   align-items: center;
-
-
-  
-  
 }
 
 
