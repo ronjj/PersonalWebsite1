@@ -1,110 +1,39 @@
-
-
-
-/*Global */
-* {
-padding: 0px;
-margin: 0px;
-box-sizing: border-box;
-background-color: #000;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-a:link{
-  text-decoration: none;
-  color: #fff;
 
+body {
+  color: #000;
+  font-size: 15px;
+  line-height: 1.5;
 }
-a:visited{
-  color: #fff;
 
-}
 .wrapper{
+  background-color: #000000;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
+
 }
 
-/* Header and Subtitle */
-
-.headertext{
-  color: #fff;
+.headertext h1 {
+  color: #ffffff;
   text-align: center;
-  padding: 40px;
-  font-size: 28px;
 }
 
-.headertext h1{
-  font-size: 2.7em;
-  font-family: 'Montserrat', sans-serif;
+.headertext h3 {
+  text-align: center;
+  color: #ffffff;
 }
 
-.headertext h4{
-  font-family: 'Rubik', sans-serif;
-  font-weight: 300;
-}
-
-
-/* Buttons */
-
-.btn1{
+.buttons {
+  text-align: center;
+  text-decoration: none;
   
-  background-color: #000;
-  font-size: 25px;
-  padding: 15px;
-  border-radius: 25px;
-  margin: 40px 30px;
-  border-width: 5px;
-  border-color: #fff;
 }
 
-
-.btn2{
-  background-color: #000;
-  font-size: 25px;
-  padding: 15px;
-  border-radius: 25px;
-  margin: 40px 30px;
-  border-width: 5px;
-  border-color: #fff;
+.btn {
+  text-decoration: none;
+  color: #000;
 }
-
-.btn3{
-  background-color: #000;
-  font-size: 25px;
-  padding: 15px;
-  border-radius: 25px;
-  margin: 40px 30px;
-  border-width: 5px;
-  border-color: #fff;
-}
-
-/* Drops Opacity of Button when you hover over it*/
-.btn1:hover{
-  opacity: .7;
-}
-
-.btn2:hover{
-  opacity: .7;
-}
-
-.btn3:hover{
-  opacity: .7;
-}
-
-
-/* Flexbox For Buttons*/
-.buttons{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.about-me{
-  background-color: gray;
-  height: 600px;
-}
-
-
