@@ -120,10 +120,32 @@ font-weight: 300;
 /* Projects */
 
 .projects {
-  background-color: #D3D3D3 ;
+  text-align: center  ;
+}
+
+.projects h1{
+  margin-bottom: 20px;
+}
+
+.projects-inner{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-gap: 90px ;
+  margin-bottom: 40px;
+  max-width: 1100px;
+  margin: auto;
+
+}
+
+.projects img {
+  width: 100%;
 }
 
 /* Contact */
+
+.contact{
+  margin-top: 50px;
+}
 
 .contact-inner{
   text-align: center;
@@ -140,12 +162,19 @@ font-weight: 300;
   color: #000;
 }
 
-.contact-inner i .fabfa-linkedin:hover{
-  color: red;
-}
 
 .socials {
   font-size: 50px;
   margin: 0px 30px;
 }
 
+.email-address {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.email {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
