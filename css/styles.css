@@ -1,3 +1,5 @@
+
+/* Global */
 *{
   box-sizing: border-box;
   margin: 0;
@@ -11,6 +13,10 @@ body {
   font-size: 15px;
   line-height: 1.5;
 }
+
+
+
+/* Landing */
 
 .landing{
   background-color: #000000;
@@ -98,7 +104,7 @@ body {
 .skills h1 {
   text-align: center;
   margin-bottom: 10px;
-  font-size: 35px;
+  font-size: 10px;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
 }
@@ -167,8 +173,12 @@ font-weight: 300;
   max-width: 1300px;
   margin: auto;
 
+
 }
 
+.projects-inner   a:visited {
+  color: #0000EE;
+}
 
 .projects-inner h2, p, a {
   text-align: left;
@@ -180,10 +190,6 @@ font-weight: 300;
 
 /* Contact */
 
-.contact{
-  
-  
-}
 
 .contact-inner{
   text-align: center;
@@ -225,4 +231,120 @@ font-weight: 300;
   font-weight: 500;
   font-size: 25px;
   padding-bottom: 50px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 1725px) {
+  .skills-inner{
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 1567px) {
+  .skills-inner{
+    font-size: 25px;
+  }
+
+  #about-me h1{
+    font-size: 30px;
+  }
+
+  #about-me p{
+    font-size: 25px;
+  }
+}
+
+
+@media (max-width: 1362px) {
+  .projects-inner {
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    width: 60%;
+
+
+  }
+}
+
+@media (max-width: 1250px) {
+
+
+  #about-me p{
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 1050px) {
+
+  body{
+    overflow-x: hidden;
+  }
+  #about-me p{
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .skills{
+  display: flex;
+  justify-content: flex-end;
+  max-width: 100%;
+  flex-wrap:wrap
+  }
+  .skills h1{
+    flex: 0 0 100%;
+  }
+
+}
+
+
+
+@media (max-width: 500px) {
+
+  .landing h1 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+ 
+}
+.landing h3 {
+  color: #ffffff;
+  font-family: 'Courier Prime', monospace;
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.btn {
+  border: #ffffff 3px solid;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 8px;
+}
+
+
+#about-me p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.skills-inner {
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 0px;
+  padding-top: 0px;
+
+  }
+
+  .skills h1 {
+    margin-bottom: 0px;
+    font-size: ;
+ 
+  }
+
 }
