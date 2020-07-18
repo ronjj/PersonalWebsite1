@@ -68,13 +68,12 @@ body {
 }
 
 #about-me{
-  height: 1000px;
+  height: 550px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 90%;
   margin: auto;
- 
   }
 
 #about-me h1 {
@@ -98,15 +97,17 @@ body {
   font-size: 12px;
   padding: 35px 0;
   margin-bottom: 0px;
+  background-color:#F0F0F0 ;
+
   
 }
 
 .skills h1 {
   text-align: center;
-  margin-bottom: 10px;
-  font-size: 10px;
+  font-size: 40px;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .skills-inner {
@@ -115,7 +116,7 @@ margin: 0 auto;
 padding: 0 20px;
 display: grid;
 grid-template-columns: 1fr 1fr;
-grid-gap: 450px;
+
 align-items: flex-start;
 justify-content: center;
 
@@ -334,10 +335,9 @@ font-weight: 300;
 }
 
 .skills-inner {
-  display: inline-block;
-  font-size: 15px;
-  margin-top: 0px;
-  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
 
   }
 
