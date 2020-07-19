@@ -148,6 +148,7 @@ font-weight: 300;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
   font-size: 35px;
+  margin-top: 10px;
 }
 
 #projects h2{
@@ -158,12 +159,21 @@ font-weight: 300;
 #projects p{
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  
 }
 
 #projects a{
   text-decoration: none;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+  margin: 0 10px;
+
 }
 
 .projects-inner{
@@ -177,9 +187,6 @@ font-weight: 300;
 
 }
 
-.projects-inner   a:visited {
-  color: #0000EE;
-}
 
 .projects-inner h2, p, a {
   text-align: left;
@@ -188,6 +195,10 @@ font-weight: 300;
 #projects img {
   width: 100%;
 }
+
+
+
+
 
 /* Contact */
 
