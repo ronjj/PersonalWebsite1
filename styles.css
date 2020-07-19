@@ -328,11 +328,6 @@ font-weight: 300;
 }
 
 
-@media (max-width: 650px){
-  .social-media{
-
-  }
-}
 
 @media (max-width: 600px){
   #about-me p{
@@ -386,11 +381,15 @@ font-weight: 300;
 
 @media (max-width: 475px) {
   #about-me p {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .contact-inner h1{
     font-size: 33px;
     
+  }
+
+  #about-me {
+    width: 95%;
   }
 }
