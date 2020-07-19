@@ -372,3 +372,14 @@ font-weight: 300;
 }
 
 }
+
+@media (max-width: 475px) {
+  #about-me p {
+    font-size: 12px;
+  }
+
+  .contact-inner h1{
+    font-size: 33px;
+    
+  }
+}
