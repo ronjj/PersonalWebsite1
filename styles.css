@@ -177,13 +177,19 @@ font-weight: 300;
 }
 
 .projects-inner{
+
+  /* When I have more projects
   display: grid;
   grid-template-columns:repeat(3,1fr);
   grid-gap: 120px ;
   margin-bottom: 40px;
   max-width: 1300px;
   margin: auto;
+*/
 
+display: flex;
+justify-content: center;
+text-align: center;
 
 }
 
@@ -392,4 +398,9 @@ font-weight: 300;
   #about-me {
     width: 95%;
   }
+
+  .social-media {
+    grid-template-rows: repeat(2,1fr);
+  }
+
 }
