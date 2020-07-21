@@ -401,7 +401,7 @@ font-weight: 300;
   }
 
   .contact-inner h1{
-    font-size: 33px;
+    font-size: 30px;
     
   }
 
@@ -414,6 +414,12 @@ font-weight: 300;
    .social-media {
      display: flex;
      flex-wrap: wrap;
+     justify-content: center;
    }
+
+
+   .email {
+    font-size: 20px;
+  }
 
 }
