@@ -68,7 +68,7 @@ body {
 }
 
 #about-me{
-  height: 550px;
+  height: 240px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -230,9 +230,8 @@ font-weight: 300;
 }
 
 .contact-inner a{
- font-size: 60px ;
+ font-size: 50px ;
  padding: 0 30px;
-
 }
 /*
 .socials {
@@ -405,6 +404,9 @@ font-weight: 300;
     width: 95%;
   }
 
-
+  .contact-inner a{
+    font-size: 16px ;
+    padding: 0 30px;
+   }
 
 }
