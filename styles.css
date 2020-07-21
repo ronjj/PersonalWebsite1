@@ -178,18 +178,14 @@ font-weight: 300;
 
 .projects-inner{
 
-  /* When I have more projects
+ 
   display: grid;
   grid-template-columns:repeat(3,1fr);
   grid-gap: 120px ;
   margin-bottom: 40px;
   max-width: 1300px;
   margin: auto;
-*/
 
-display: flex;
-justify-content: center;
-text-align: center;
 
 }
 
@@ -222,6 +218,9 @@ text-align: center;
   padding-top: 25px;
 }
 
+
+
+
 .contact-inner i {
   color: #000;
 }
@@ -234,6 +233,7 @@ text-align: center;
 .socials {
   font-size: 50px;
   margin: 0px 30px;
+  
 }
 
 .email-address {
@@ -249,6 +249,10 @@ text-align: center;
   font-weight: 500;
   font-size: 25px;
   padding-bottom: 50px;
+}
+
+.social-media a{
+  max-width: 10%;
 }
 
 
@@ -399,8 +403,6 @@ text-align: center;
     width: 95%;
   }
 
-  .social-media {
-    grid-template-rows: repeat(2,1fr);
-  }
+
 
 }
