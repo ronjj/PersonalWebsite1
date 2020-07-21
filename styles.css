@@ -229,12 +229,16 @@ font-weight: 300;
   text-align: center;
 }
 
-
+.contact-inner a{
+ font-size: 50px ;
+ padding: 0 30px;
+}
+/*
 .socials {
   font-size: 50px;
   margin: 0px 30px;
-  
 }
+*/
 
 .email-address {
   font-family: 'Rubik', sans-serif;
@@ -251,9 +255,6 @@ font-weight: 300;
   padding-bottom: 50px;
 }
 
-.social-media a{
-  max-width: 10%;
-}
 
 
 /* Responsive Design */
