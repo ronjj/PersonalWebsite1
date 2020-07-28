@@ -190,8 +190,6 @@ font-weight: 300;
 }
 
 .projects-inner{
-
- 
   display: grid;
   grid-template-columns:repeat(3,1fr);
   grid-gap: 120px ;
@@ -206,6 +204,12 @@ font-weight: 300;
 .projects-inner h2, p, a {
   text-align: center;
 }
+
+.projects-inner h2{
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
 
 #projects img {
   width: 100%;
@@ -286,6 +290,11 @@ font-weight: 300;
 
 .projects-inner2 h2, p, a {
   text-align: center;
+}
+
+.projects-inner2 h2{
+  padding-top: 10px;
+  margin-top: 10px;
 }
 
 #projects2 img {
