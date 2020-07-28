@@ -204,7 +204,7 @@ font-weight: 300;
 
 
 .projects-inner h2, p, a {
-  text-align: left;
+  text-align: center;
 }
 
 #projects img {
@@ -263,6 +263,7 @@ font-weight: 300;
     font-size: 20px;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 
@@ -284,7 +285,7 @@ font-weight: 300;
 }
 
 .projects-inner2 h2, p, a {
-  text-align: left;
+  text-align: center;
 }
 
 #projects2 img {
