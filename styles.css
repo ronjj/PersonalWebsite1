@@ -353,7 +353,7 @@ font-weight: 300;
 
 
 
-/* Responsive Design */
+/* Responsive Design  */
 
 @media (max-width: 1725px) {
   .skills-inner{
@@ -427,6 +427,7 @@ font-weight: 300;
 @media (max-width: 800px){
   #about-me p{
     font-size: 18px;
+    margin-bottom: 7px;
   }
 
   .skills h1{
@@ -443,6 +444,7 @@ font-weight: 300;
 @media (max-width: 600px){
   #about-me p{
     font-size: 17px;
+    margin-bottom: 7px;
   }
 }
 
@@ -478,6 +480,7 @@ font-weight: 300;
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 300;
+  margin-bottom: 7px;
 }
 
 .skills-inner{
@@ -493,6 +496,7 @@ font-weight: 300;
 @media (max-width: 475px) {
   #about-me p {
     font-size: 16px;
+    margin-bottom: 7px;
   }
 
   .contact-inner h1{
