@@ -72,7 +72,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
+  max-width: 80%;
   margin: auto;
   }
 
@@ -382,8 +382,12 @@ font-weight: 300;
     display: grid;
     grid-template-columns:repeat(1,1fr);
     width: 60%;
+  }
 
-
+  .projects-inner2 {
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    width: 60%;
   }
 }
 
