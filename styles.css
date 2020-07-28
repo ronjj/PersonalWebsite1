@@ -176,6 +176,16 @@ font-weight: 300;
 
 }
 
+#projects h3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.hardware{
+  width: 100%;
+}
+
 .projects-inner{
 
  
@@ -197,6 +207,84 @@ font-weight: 300;
 #projects img {
   width: 100%;
 }
+
+
+
+
+
+
+/* Projects */
+
+#projects2 {
+  text-align: center  ;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+
+#projects2 h1{
+  margin-bottom: 40px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+#projects2 h2{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+#projects2 p{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  
+}
+
+#projects2 a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+  margin: 0 10px;
+
+}
+
+#projects2 h3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.projects-inner2{
+
+ 
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-gap: 120px ;
+  margin-bottom: 40px;
+  max-width: 1300px;
+  margin: auto;
+
+
+}
+
+
+.projects-inner2 h2, p, a {
+  text-align: left;
+}
+
+#projects2 img {
+  width: 100%;
+}
+
+
+
 
 
 
