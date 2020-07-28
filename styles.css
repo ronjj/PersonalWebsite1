@@ -180,6 +180,8 @@ font-weight: 300;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .hardware{
@@ -213,7 +215,7 @@ font-weight: 300;
 
 
 
-/* Projects */
+/* Projects 2 */
 
 #projects2 {
   text-align: center  ;
@@ -258,6 +260,8 @@ font-weight: 300;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 
