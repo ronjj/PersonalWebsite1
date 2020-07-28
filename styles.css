@@ -495,8 +495,9 @@ font-weight: 300;
 
 @media (max-width: 475px) {
   #about-me p {
-    font-size: 16px;
-    margin-bottom: 7px;
+    font-size: 14px;
+
+    margin-top:0px ;
   }
 
   .contact-inner h1{
@@ -506,9 +507,12 @@ font-weight: 300;
 
   #about-me {
     width: 95%;
+    padding-bottom: auto; 
   }
 
- 
+  .skills{
+    padding-top: 60px;
+  }
 
    .social-media {
      display: flex;
