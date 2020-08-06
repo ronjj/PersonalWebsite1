@@ -136,6 +136,15 @@ font-weight: 300;
   color: #000000;
 }
 
+.la-css3{
+  display: block;
+  font-size: 30px;
+}
+
+.skills-inner .list-item{
+  display: block;
+}
+
 /* Projects */
 
 #projects {
@@ -540,5 +549,11 @@ font-weight: 300;
    .email {
     font-size: 20px;
   }
+
+  img.images {
+    max-width: 187px;
+    max-height:108px;
+  }
+
 
 }
